@@ -11,7 +11,7 @@ pygame.init()
 # 设置窗口大小
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("海上作战场景")
+pygame.display.set_caption("场景")
 
 # 加载并调整图像大小
 boat_image = pygame.image.load('boat.png')
